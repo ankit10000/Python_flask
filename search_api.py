@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Dummy data for testing, replace it with your actual data source
+
 comments_data = [
     {
         "at": "Wed, 25 Jan 2023 23:59:38 GMT",
